@@ -1,0 +1,16 @@
+{
+  "Class": "sensor",
+  "Type": "oxygen-sensor",
+  "ValueUnit": "%",
+  "ValueType": "float",
+  "Model": "model name",
+  "Name": "산소센서",
+  "CommSpec": {
+    "KS-X-3267:2018": {
+      "read": {
+        "starting-register": 212,
+        "items": ["value", "status"]
+      }
+    }
+  }
+}

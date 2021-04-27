@@ -1,0 +1,16 @@
+{
+  "Class": "sensor",
+  "Type": "carbon_dioxide-sensor",
+  "ValueUnit": "ppm",
+  "ValueType": "float",
+  "Model": "model name",
+  "Name": "이산화탄소센서",
+  "CommSpec": {
+    "KS-X-3267:2018": {
+      "read": {
+        "starting-register": 209,
+        "items": ["value", "status"]
+      }
+    }
+  }
+}

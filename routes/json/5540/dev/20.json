@@ -1,0 +1,16 @@
+{
+  "Class": "sensor",
+  "Type": "ammonia-sensor",
+  "ValueUnit": "ppm",
+  "ValueType": "float",
+  "Model": "model name",
+  "Name": "암모니아센서",
+  "CommSpec": {
+    "KS-X-3267:2018": {
+      "read": {
+        "starting-register": 215,
+        "items": ["value", "status"]
+      }
+    }
+  }
+}

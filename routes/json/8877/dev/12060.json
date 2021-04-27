@@ -1,0 +1,18 @@
+{
+  "Class": "sensor",
+  "Type": "CO2-sensor",
+  "ValueUnit": "dS/m",
+  "ValueType": "integer",
+  "Model": "model name",
+  "Name": "CO2센서",
+  "Channel": 2,
+  "SignificantDigit": 0,
+  "CommSpec": {
+    "KS-X-3267:2018": {
+      "read": {
+        "starting-register": 3060,
+        "items": ["value", "status"]
+      }
+    }
+  }
+}

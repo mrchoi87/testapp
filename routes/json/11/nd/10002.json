@@ -1,0 +1,18 @@
+{
+  "Class": "node",
+  "Type": "actuator-node",
+  "Model": "FUT-ACTNODE-001",
+  "Name": "퓨쳐테크",
+  "CommSpec": {
+    "KS-X-3267:2018": {
+      "read": {
+        "starting-register": 201,
+        "items": ["opid", "status"]
+      },
+      "write": {
+        "starting-register": 501,
+        "items": ["operation", "opid"]
+      }
+    }
+  }
+}

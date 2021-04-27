@@ -1,0 +1,18 @@
+{
+  "Class": "sensor",
+  "Type": "temperature-sensor",
+  "ValueUnit": "℃",
+  "ValueType": "float",
+  "Model": "model name",
+  "Name": "온도센서",
+  "Channel": 4,
+  "SignificantDigit": 1,
+  "CommSpec": {
+    "KS-X-3267:2018": {
+      "read": {
+        "starting-register": 4010,
+        "items": ["value", "status"]
+      }
+    }
+  }
+}

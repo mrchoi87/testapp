@@ -1,0 +1,14 @@
+{
+  "Class": "node",
+  "Type": "sensor-node",
+  "Model": "SSN-220",
+  "Name": "표준센서노드",
+  "CommSpec": {
+    "KS-X-3267:2018": {
+      "read": {
+        "starting-register": 201,
+        "items": ["status"]
+      }
+    }
+  }
+}

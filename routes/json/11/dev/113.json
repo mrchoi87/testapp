@@ -1,0 +1,36 @@
+{
+  "Class": "actuator",
+  "Type": "retractable/level2",
+  "Model": "MOTOR-LV2",
+  "Name": "개폐기1",
+  "CommSpec": {
+    "KS-X-3267:2018": {
+      "read": {
+        "starting-register": 203,
+        "items": ["opid", "status", "position"]
+      },
+      "write": {
+        "starting-register": 503,
+        "items": ["operation", "opid", "position"]
+      }
+    }
+  }
+},
+{
+  "Class": "actuator",
+  "Type": "retractable/level2",
+  "Model": "MOTOR-LV2",
+  "Name": "개폐기2",
+  "CommSpec": {
+    "KS-X-3267:2018": {
+      "read": {
+        "starting-register": 207,
+        "items": ["opid", "status", "position"]
+      },
+      "write": {
+        "starting-register": 507,
+        "items": ["operation", "opid", "position"]
+      }
+    }
+  }
+}
